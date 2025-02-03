@@ -3,12 +3,12 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class TemperatureConverterGUI extends JFrame implements ActionListener {
+public class PRODIGY_SD_01 extends JFrame implements ActionListener {
     private JTextField temperatureField;
     private JComboBox<String> originalUnitComboBox;
     private JLabel resultLabel;
 
-    public TemperatureConverterGUI() {
+    public PRODIGY_SD_01() {
         setTitle("Temperature Converter");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(600, 400);
